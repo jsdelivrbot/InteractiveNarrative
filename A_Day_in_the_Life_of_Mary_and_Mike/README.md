@@ -2,6 +2,8 @@
 
 Written in inform7
 
+Play: https://cdn.rawgit.com/aAshkan/InteractiveNarrative/master/A_Day_in_the_Life_of_Mary_and_Mike/A_Day_in_the_Life_of_Mary_and_Mike.materials/Release/index.html
+
 You are in town, done with your business meeting one day early. You decided to give Mary and Mike a surprise visit. 
 Mike was your closest and only friend in college. You have known him for more than two decades. 
 Both of you got hired at the same company and have been co-workers since the day you finished school. 
