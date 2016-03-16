@@ -1,0 +1,2530 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x981ea80" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x981ead0" />
+  <item nodeId="node-0x981ea80">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+Game Tutorial:
+This Interactive Fiction game is a mixture of Galatea, and Façade.
+The player can go east, west, north, or south only when they are outside Mary and Mike&apos;s house. Once in the house they player can ask Mike and Mary questions which follow these formats:
+
+ask X about Y
+ask Mike about job
+ask Mary about...
+etc...
+
+The players can type &quot;hint&quot; at anytime to get a list of commands they can type to ask Mike, or Mary questions.
+There are also options such as attack or defend, which the player can use to take Mike, or Mary&apos;s side in the argument.
+Based on the player&apos;s choices the game will have multiple endings.
+
+A Day in the Life of Mary and Mike
+An Interactive Fiction by Amir Ashkan Nourkhalaj
+Release 1 / Serial number 150608 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Scent of Jasmine mixed with citrus gives you relief. You get to the door. You hear the sound of argument coming from the other side of the door. Standing there, frozen and unsure of what to do.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="286">NO</temporary>
+    <children>
+      <child nodeId="node-0x30d0a0b0" />
+      <child nodeId="node-0x9960830" />
+      <child nodeId="node-0x981ead0" />
+      <child nodeId="node-0x9abcb90" />
+      <child nodeId="node-0x9a63f80" />
+      <child nodeId="node-0x9950c00" />
+      <child nodeId="node-0x27b408c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x27b408c0">
+    <command xml:space="preserve">test with ending</command>
+    <result xml:space="preserve">I only understood you as far as wanting to test that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="269">YES</temporary>
+    <children>
+      <child nodeId="node-0x27b49240" />
+    </children>
+  </item>
+  <item nodeId="node-0x27b49240">
+    <command xml:space="preserve">test ending</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] listen
+To get a grasp of the situation, you close your ear to the door and listen carefully.
+Woman: &quot;you know what Michael?! I think it&apos;s enough. I don&apos;t want to talk about it anymore and I&apos;m tired of acting like a fool. That&apos;s it for us.&quot;
+The footsteps of the woman started rushing away from the living room.
+
+
+&gt;[2] hint
+knock, listen, look, south, north.
+
+&gt;[3] knock
+The argument stops and no more sound is coming from the house. As if no one has ever lived in this house. you better knock again.
+
+&gt;[4] listen
+You can only hear the sound of cars in the street.
+
+
+&gt;[5] ring the bell
+You hear someone approaching the door. Then a slightly irritated sound asks from behind the door: &quot;WHO IS IT?&quot; 
+You: &quot;Your only adorable blind friend!&quot;
+You hear the sound of door being opened and smiling voice welcoming you in. 
+
+You get inside the house.
+
+&gt;[6] ask mike about how he has been
+You: &quot;So, how have you been?&quot;
+Mike: &quot;I&apos;ve been great. Just going through tough times these past few days.&quot;
+
+&gt;[7] ask mike about mary
+You: &quot; adfs&quot;
+Mike: &quot;Test Wife.&quot;
+
+&gt;[8] hint
+Ask Mike about: house, day, how he has been, life, weather, wife, mary, work, city, argument.
+
+&gt;[9] ask mike about house
+You: &quot;How do you like the house?&quot;
+Mike: &quot;Ah, it&apos;s your first time here. It&apos;s not bad. Mary loves the garden. She spends most of her free time there. The house itself is pretty small, the kitchen is cozy and the living room is only a fancified corridor. No complains for the bedroom though. It&apos;s big enough for us to live in it happily.&quot; 
+You sense a hint of irony in Mike&apos;s voice.
+
+&gt;[10] ask mike about mom
+Mike: &quot;I have to think about it.&quot;
+
+&gt;[11] ask mike about the city
+You: &quot;How do you like the city?&quot;
+Mike: &quot;It&apos;s very quiet. It only has three movie theaters of which, one is always being repaired and the other has chairs with nails sticking out of them. There is a wonderful grocery shop in 4 min walking distance from us. Most of what it offers, which isn&apos;t that many, are locally grown. If you drive south you&apos;ll get to the ocean. There are multiple small nurseries down the road too. We bought a orange tree from it half a year ago. Mary planted it in the garden. Every morning she checks on it for any sign of fruits. Keep it a secret but I think she actually named the tree.&quot;
+
+&gt;[12] ask mike about child
+Mike: &quot;I rather not talk about it right now.&quot;
+
+&gt;[13] ask mike about flower
+Mike: &quot;Now is not a good time.&quot;
+
+&gt;[14] ask mike about sex
+Mike: &quot;I rather not talk about it right now.&quot;
+
+&gt;[15] ask mike about city
+Mike: &quot;I don&apos;t think the city has changed since we last talked about it.&quot;
+
+&gt;[16] ask mike about what happened
+Mike: &quot;What are you talking about&quot;
+&gt;[17] ask mike about his car
+Mike: &quot;I&apos;m not in the mood to talk about it.&quot;
+
+&gt;[18] ask mike about argument
+You: &quot;Is everything ok between you guys?&quot;
+Mike: &quot;Oh! So, we were that loud? It&apos;s nothing serious… The usual hiccups in any relationships.&quot;
+You hear footsteps entering the room. Mary starts speaking.
+Mary: &quot;What do you mean it&apos;s not serious Michael?! How could it get any more serious?&quot;
+You: &quot;It sure sounds more than a hiccup body&quot; 
+Mary: &quot;Why don&apos;t you tell your friend what you&apos;ve done and let he be the judge...&quot; 
+You: &quot;Nice, I get to be the marriage counselor!&quot; 
+You can sense the weight of Mary&apos;s look on you. 
+Mary: &quot;Can you stop being a wise ass for a second!&quot; 
+You: &quot;sorry!&quot;
+
+&gt;[19] hint
+Ask Mike about: house, day, how he has been, life, weather, wife, mary, work, city, argument, what happened.
+Ask Mary about: what happened.
+
+&gt;[20] ask mary about what happened
+Mary: &quot;We&apos;ve already talked about it
+&gt;[21] hint
+Ask Mike about: house, day, how he has been, life, weather, wife, mary, work, city, argument, what happened.
+Ask Mary about: what happened.
+
+&gt;[22] defend mike
+You can&apos;t do that action at the moment!
+
+&gt;[23] take package
+You can&apos;t see any such thing.
+
+&gt;[24] ask mary about the package
+Mary: &quot;Open it. You&apos;ll see.&quot;
+
+&gt;[25] x package
+You can&apos;t see any such thing.
+
+&gt;[26] open package
+You can&apos;t see any such thing.
+
+&gt;[27] take papers
+You can&apos;t see any such thing.
+
+&gt;[28] x papers
+You can&apos;t see any such thing.
+
+&gt;[29] ask mary about papers
+Mary: &quot;What papers?&quot;
+
+&gt;[30] defend mary
+You can&apos;t do that action at the moment!
+
+&gt;[31] defend mary
+You can&apos;t do that action at the moment!
+
+&gt;[32] defend mike
+You can&apos;t do that action at the moment!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="269">YES</temporary>
+    <children>
+      <child nodeId="node-0x30d95f20" />
+    </children>
+  </item>
+  <item nodeId="node-0x30d95f20">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="269">YES</temporary>
+    <children>
+      <child nodeId="node-0x1a9f61a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1a9f61a0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="268">YES</temporary>
+  </item>
+  <item nodeId="node-0x9950c00">
+    <command xml:space="preserve">test end1</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] knock
+The argument stops and no more sound is coming from the house. As if no one has ever lived in this house. you better knock again.
+
+&gt;[2] knock
+You hear someone approaching the door. Then a slightly irritated sound asks from behind the door: &quot;WHO IS IT?&quot; 
+You: &quot;Your only adorable blind friend!&quot;
+You hear the sound of door being opened and smiling voice welcoming you in. 
+
+You get inside the house.
+
+&gt;[3] ask mike about the argument
+You: &quot;Is everything ok between you guys?&quot;
+Mike: &quot;Oh! So, we were that loud? It&apos;s nothing serious… The usual hiccups in any relationships.&quot;
+You hear footsteps entering the room. Mary starts speaking.
+Mary: &quot;What do you mean it&apos;s not serious Michael?! How could it get any more serious?&quot;
+You: &quot;It sure sounds more than a hiccup body&quot; 
+Mary: &quot;Why don&apos;t you tell your friend what you&apos;ve done and let he be the judge...&quot; 
+You: &quot;Nice, I get to be the marriage counselor!&quot; 
+You can sense the weight of Mary&apos;s look on you. 
+Mary: &quot;Can you stop being a wise ass for a second!&quot; 
+You: &quot;sorry!&quot;
+
+&gt;[4] ask mike about what happened
+You: &quot;What happened?&quot;
+Mike: &quot;Nothing! Really! I don&apos;t know what caused her to act like this. She kept asking me whether I have anything to say to her or not. I&apos;m as confused as you.&quot;
+Mary: &quot;It started couple of months ago. Mike was coming home late once a week. After a while I realized there is a pattern to it. Every Thursday he would be couple of hours late. Also, every other weekends, he would make up an excuse and would go out for half a day. What&apos;s worst is, on Thursdays he always smells of one particular perfume. It never changes. On weekends, the perfumes are mix and hard to distinguish.&quot;
+Mike: &quot;Why were you smelling my clothes?!&quot;
+
+&gt;[5] defend mike
+You: &quot;Mary, I&apos;m not sure that proves anything. It could be the perfume of a coworker who happens to share elevator with Mike on Thursdays and it only happens on Thursdays because for whatever reason, Mike leaves work later on that day.&quot; 
+Mary: &quot;of course you would side with him. You are his college friend after all.&quot;
+
+Mary leaves her chair and walks to her room. Then immediately comes back while carrying something with herself. She puts a package in front of you.
+
+&gt;[6] take package
+Taken.
+
+&gt;[7] open package
+You open package, revealing papers.
+
+&gt;[8] take papers
+You open the package and take out the papers inside it.
+
+Taken.
+
+&gt;[9] x papers
+There are multiple glossy papers as big as your palm.
+
+&gt;[10] ask mary about the papers
+You: &quot;Mary, what are these papers?&quot;
+Mary: &quot;Sorry, I forgot about your condition. These are pictures of Mike being intimate with different ladies.&quot;
+
+&gt;[11] defend mary
+You: &quot;Mike, can you explain the content of these photos?&quot;
+Mike: &quot;These photos show me dancing with other people. I don&apos;t know why Mary is getting so worked up about these. Also, I&apos;m curious to know how she got these?&quot;
+Mary: &quot;Can you stop treating me like a fool Mike? And for God&apos;s sake stop acting so matter-of-factly about it. It&apos;s hurting me seeing how indifferent you&apos;ve become. The photos are coming from a reliable source. An investigator who was hired by me when I first noticed your abnormal behavior.&quot;
+
+&gt;[12] defend mike
+You: &quot;Mary, instead of having someone spy on Mike, shouldn&apos;t you have talked to him first? Doesn&apos;t he have the right to know before anyone else?&quot;
+Mary: &quot;Well I do have the right to know before anyone else too. If for any reason, Mike is bored of our relationship, shouldn&apos;t I be the first one that he talks to?&quot;
+Mike: &quot;Wow, what&apos;s going on here! Can you guys stop talking like I&apos;m not here? And Mary, you do have a vivid and scary imaginations. Didn&apos;t that friend of yours, Mr. detective, mention anything else other than the photos?&quot;
+Mary: &quot;No, he only sent me the photos and ask me whether I want him to continue the investigation or not. He didn&apos;t find any other evidence of anything else.
+Mike: &quot;Well because there is nothing to be found Mary! Let me confess what has been going on. I&apos;ve been taking dance classes.&quot;
+
+&gt;[13] defend mary
+You: &quot;Well I guess Mary&apos;s friend wasn&apos;t too far off with those photos. So, Mr. Baryshnikov, why so secret? I don&apos;t think Mary would be as bothered by it as she is now if she knew what was going on&quot;
+Mike: &quot;Because I didn&apos;t want her to find out&quot;
+Mary: &quot;Why not Mike?&quot;
+Mike: &quot;Because of you Mary. It supposed to be a surprise for you. The picture I had in mind was slightly different than what is happening now. I imagined everyone in a party are talking and having fun. Suddenly, the dance floor becomes empty and The Blue Danube starts. I&apos;ll walk toward you, elegantly. Stop in front of you, bowing graciously and offering my right hand. Your face will be a mixture of shock and embarrassment, but you accept my hand and dance with me. Our parents, friends, and Ms. Arlene, the lady who the Thursdays&quot; perfume belongs to, nodding their heads in acknowledgment.&quot;
+Mary: &quot;Oh, Mike. I&apos;m so sorry for ruining your surprise.&quot;
+Mike: &quot;It&apos;s alright. I&apos;m sure it wouldn&apos;t go that smoothly anyways.&quot;
+Mary: &quot;I&apos;ll tell you what, we are going to rehearse the dance many times before that night and I promise to act as surprised and embarrassed as I can.&quot;
+Mike: &quot;That&apos;s so sweet of you&quot;
+
+
+    *** You: &quot;Wow, what a day it was. Guys, I&apos;m really relieved that everything was a misunderstanding. You know both of you are dear friends of mine and nothing is more heartwrenching to me than seeing you both at each other&apos;s throat. I understand sometimes it&apos;s too hard to talk, sometimes you feel the space between you two is infinite and your voice is not reaching the other person. But you&apos;ve got to get your act together if you want to survive. I don&apos;t think it was the first time that such a conflict occurs and let me promise you something, out of experience, it won&apos;t be the last time either. The only cure for this disease, the only ointment for such injuries is talking. So, promise me to talk to each other when something is bothering you.&quot;
+Mary: &quot;Sure.&quot;
+Mike: &quot;I hope you don&apos;t find it too insensitive of me, but since you lost your eyesight, it feels like you&apos;ve become a philosopher!&quot;
+You: &quot;Mike, I was always a secret philosopher at heart.&quot; ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="211">YES</temporary>
+    <children>
+      <child nodeId="node-0x99500b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x99500b0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="211">YES</temporary>
+    <children>
+      <child nodeId="node-0x9905de0" />
+      <child nodeId="node-0x23f7c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x23f7c0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="210">YES</temporary>
+  </item>
+  <item nodeId="node-0x9905de0">
+    <command xml:space="preserve">hint</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="168">YES</temporary>
+    <children>
+      <child nodeId="node-0x98cfab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x98cfab0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">House
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="168">YES</temporary>
+    <children>
+      <child nodeId="node-0x12c8c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x12c8c0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">House
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="168">YES</temporary>
+    <children>
+      <child nodeId="node-0x1db08d00" />
+    </children>
+  </item>
+  <item nodeId="node-0x1db08d00">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">House
+[Previous turn undone.]
+
+&gt;[13] attack mary
+You can&apos;t do that action at the moment!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="168">YES</temporary>
+    <children>
+      <child nodeId="node-0x99d9480" />
+    </children>
+  </item>
+  <item nodeId="node-0x99d9480">
+    <command xml:space="preserve">hint</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="168">YES</temporary>
+    <children>
+      <child nodeId="node-0x999cab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x999cab0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">House
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="168">YES</temporary>
+    <children>
+      <child nodeId="node-0x1db400d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1db400d0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">House
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="168">YES</temporary>
+    <children>
+      <child nodeId="node-0x9a9fa80" />
+    </children>
+  </item>
+  <item nodeId="node-0x9a9fa80">
+    <command xml:space="preserve">hint</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="167">YES</temporary>
+  </item>
+  <item nodeId="node-0x9a63f80">
+    <command xml:space="preserve">knock</command>
+    <result xml:space="preserve">The argument stops and no more sound is coming from the house. As if no one has ever lived in this house. you better knock again.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="265">YES</temporary>
+    <children>
+      <child nodeId="node-0x99c1d00" />
+      <child nodeId="node-0x15c350" />
+    </children>
+  </item>
+  <item nodeId="node-0x15c350">
+    <command xml:space="preserve">knock</command>
+    <result xml:space="preserve">You hear someone approaching the door. Then a slightly irritated sound asks from behind the door: &quot;WHO IS IT?&quot; 
+You: &quot;Your only adorable blind friend!&quot;
+You hear the sound of door being opened and smiling voice welcoming you in. 
+
+You get inside the house.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="264">YES</temporary>
+    <children>
+      <child nodeId="node-0x3995f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3995f0">
+    <command xml:space="preserve">ask mike about the argument</command>
+    <result xml:space="preserve">You: &quot;Is everything ok between you guys?&quot;
+Mike: &quot;Oh! So, we were that loud? It&apos;s nothing serious… The usual hiccups in any relationships.&quot;
+You hear footsteps entering the room. Mary starts speaking.
+Mary: &quot;What do you mean it&apos;s not serious Michael?! How could it get any more serious?&quot;
+You: &quot;It sure sounds more than a hiccup body&quot; 
+Mary: &quot;Why don&apos;t you tell your friend what you&apos;ve done and let he be the judge...&quot; 
+You: &quot;Nice, I get to be the marriage counselor!&quot; 
+You can sense the weight of Mary&apos;s look on you. 
+Mary: &quot;Can you stop being a wise ass for a second!&quot; 
+You: &quot;sorry!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="189">YES</temporary>
+    <children>
+      <child nodeId="node-0x3b5630" />
+    </children>
+  </item>
+  <item nodeId="node-0x3b5630">
+    <command xml:space="preserve">ask mike about what happened</command>
+    <result xml:space="preserve">You: &quot;What happened?&quot;
+Mike: &quot;Nothing! Really! I don&apos;t know what caused her to act like this. She kept asking me whether I have anything to say to her or not. I&apos;m as confused as you.&quot;
+Mary: &quot;It started couple of months ago. Mike was coming home late once a week. After a while I realized there is a pattern to it. Every Thursday he would be couple of hours late. Also, every other weekends, he would make up an excuse and would go out for half a day. What&apos;s worst is, on Thursdays he always smells of one particular perfume. It never changes. On weekends, the perfumes are mix and hard to distinguish.&quot;
+Mike: &quot;Why were you smelling my clothes?!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="189">YES</temporary>
+    <children>
+      <child nodeId="node-0x9817c60" />
+    </children>
+  </item>
+  <item nodeId="node-0x9817c60">
+    <command xml:space="preserve">attack mike</command>
+    <result xml:space="preserve">You: &quot;I was prepared to defend you no matter what she threw at me. But, I don&apos;t really know what to say to this Mike. Care to give us some explanations?&quot; 
+Mike: &quot;Mary, I&apos;m telling you it&apos;s not what you think. I don&apos;t even know where you got these weird ideas. I don&apos;t want to hear it anymore.&quot; 
+Mike stands up. The living room is painfully silent. Mary is holding her tears. She looks at you.
+Mary: &quot;let me show you something.&quot;
+
+Mary leaves her chair and walks to her room. Then immediately comes back while carrying something with herself. She puts a package in front of you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="189">YES</temporary>
+    <children>
+      <child nodeId="node-0x1f9e50" />
+      <child nodeId="node-0x99bec40" />
+    </children>
+  </item>
+  <item nodeId="node-0x99bec40">
+    <command xml:space="preserve">open package</command>
+    <result xml:space="preserve">You open package, revealing papers.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="189">YES</temporary>
+    <children>
+      <child nodeId="node-0x999fbe0" />
+    </children>
+  </item>
+  <item nodeId="node-0x999fbe0">
+    <command xml:space="preserve">x papers</command>
+    <result xml:space="preserve">There are multiple glossy papers as big as your palm.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="189">YES</temporary>
+    <children>
+      <child nodeId="node-0x9908880" />
+    </children>
+  </item>
+  <item nodeId="node-0x9908880">
+    <command xml:space="preserve">ask mary about papers</command>
+    <result xml:space="preserve">You: &quot;Mary, what are these papers?&quot;
+Mary: &quot;Sorry, I forgot about your condition. These are pictures of Mike being intimate with different ladies.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="189">YES</temporary>
+    <children>
+      <child nodeId="node-0x138210" />
+    </children>
+  </item>
+  <item nodeId="node-0x138210">
+    <command xml:space="preserve">attack mary</command>
+    <result xml:space="preserve">You: &quot;Mary, what are these photos exactly? How did you get a hold of these photos? I&apos;m gonna go out on a limb and say Mike didn&apos;t provide them. At least not volunteeringly.&quot;
+Mary: &quot;They are pictures of him dancing with other women.&quot;
+Mike: &quot;What have you done Mary?&quot;
+Mary: &quot;What have &quot;I&quot; done?! Really?! Is this all you can say after everything that&apos;s happened? What HAVE I DONE?! I consulted with a private investigator and he accepted my case. These are the photos that he&apos;s been taking since few months ago.&quot;
+You: &quot;A private investigator?! Mary I think you&apos;ve seen too many TV dramas.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="189">YES</temporary>
+    <children>
+      <child nodeId="node-0x9939f70" />
+    </children>
+  </item>
+  <item nodeId="node-0x9939f70">
+    <command xml:space="preserve">hint</command>
+    <result xml:space="preserve">You can attack or defend either Mike or Mary.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="189">YES</temporary>
+    <children>
+      <child nodeId="node-0x999aba0" />
+    </children>
+  </item>
+  <item nodeId="node-0x999aba0">
+    <command xml:space="preserve">attack mary</command>
+    <result xml:space="preserve">You: &quot;Mary, you went through all the trouble of hiring an investigator. Have you ever considered asking Mike directly? Aren&apos;t you guys husband and wife? Don&apos;t you think talking with Mike would have given you the answer that you were looking for faster than any detective in the world?&quot;
+Mary: &quot;I… I don&apos;t know.&quot;
+Mike: &quot;OK. This is clearly getting waaay out of hand. Let me explain what&apos;s going on&quot;
+Mary holds her breath.
+Mike: &quot;The pictures are true. But that is literally all there is to it.&quot;
+Mary: &quot;What do you mean?&quot;
+Mike: &quot;Hmmm… How should I put it… Couple of months ago, I made a decision. I&apos;ve enrolled in a ballroom dancing class.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="188">YES</temporary>
+  </item>
+  <item nodeId="node-0x1f9e50">
+    <command xml:space="preserve">take package</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x9834d50" />
+    </children>
+  </item>
+  <item nodeId="node-0x9834d50">
+    <command xml:space="preserve">open package</command>
+    <result xml:space="preserve">You open package, revealing papers.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x9ae5cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9ae5cd0">
+    <command xml:space="preserve">take papers</command>
+    <result xml:space="preserve">You open the package and take out the papers inside it.
+
+Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x9aa18c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9aa18c0">
+    <command xml:space="preserve">x papers</command>
+    <result xml:space="preserve">There are multiple glossy papers as big as your palm.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x98801a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x98801a0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x9a69520" />
+    </children>
+  </item>
+  <item nodeId="node-0x9a69520">
+    <command xml:space="preserve">ask mary about the papers</command>
+    <result xml:space="preserve">You: &quot;Mary, what are these papers?&quot;
+Mary: &quot;Sorry, I forgot about your condition. These are pictures of Mike being intimate with different ladies.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x9aca110" />
+    </children>
+  </item>
+  <item nodeId="node-0x9aca110">
+    <command xml:space="preserve">attack mike</command>
+    <result xml:space="preserve">You: &quot;Mike, what are these?&quot;
+Mike: &quot;These &quot;intimate&quot; photos consist of me dancing with some other ladies. Why would you have these photos Mary?! Were you spying on me?&quot;
+Mary: &quot;&quot;LADIES&quot;?! They are whores! And to answer your question Mike, YES. I hired someone to follow you.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x398660" />
+    </children>
+  </item>
+  <item nodeId="node-0x398660">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">House
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x9833450" />
+    </children>
+  </item>
+  <item nodeId="node-0x9833450">
+    <command xml:space="preserve">attack mary</command>
+    <result xml:space="preserve">You: &quot;Mary, what are these photos exactly? How did you get a hold of these photos? I&apos;m gonna go out on a limb and say Mike didn&apos;t provide them. At least not volunteeringly.&quot;
+Mary: &quot;They are pictures of him dancing with other women.&quot;
+Mike: &quot;What have you done Mary?&quot;
+Mary: &quot;What have &quot;I&quot; done?! Really?! Is this all you can say after everything that&apos;s happened? What HAVE I DONE?! I consulted with a private investigator and he accepted my case. These are the photos that he&apos;s been taking since few months ago.&quot;
+You: &quot;A private investigator?! Mary I think you&apos;ve seen too many TV dramas.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x9860a30" />
+    </children>
+  </item>
+  <item nodeId="node-0x9860a30">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">House
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x9a896f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9a896f0">
+    <command xml:space="preserve">defend mike</command>
+    <result xml:space="preserve">You: &quot;Mary, can you describe exactly what&apos;s in these pictures?&quot;
+Mary: &quot;They are picture of Mike dancing with other women.&quot;
+Mike: &quot;So, what? What are you trying to say Mary?! And while we&apos;re at it, care to explain where you got these from?&quot;
+Mary: &quot;You know damn well what I&apos;m trying to say Mike. The photos are from a friend of mine who promised me to uncover the truth behind whatever you are hiding.&quot;
+You: &quot;To uncover the truth…? Mary, don&apos;t you think you are overreacting a bit?&quot;
+Mary: &quot;Sometimes you have to go the extra mile to protect what is dear to you.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x9a4c680" />
+    </children>
+  </item>
+  <item nodeId="node-0x9a4c680">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">House
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x9a7ce00" />
+    </children>
+  </item>
+  <item nodeId="node-0x9a7ce00">
+    <command xml:space="preserve">defend mary</command>
+    <result xml:space="preserve">You: &quot;Mike, can you explain the content of these photos?&quot;
+Mike: &quot;These photos show me dancing with other people. I don&apos;t know why Mary is getting so worked up about these. Also, I&apos;m curious to know how she got these?&quot;
+Mary: &quot;Can you stop treating me like a fool Mike? And for God&apos;s sake stop acting so matter-of-factly about it. It&apos;s hurting me seeing how indifferent you&apos;ve become. The photos are coming from a reliable source. An investigator who was hired by me when I first noticed your abnormal behavior.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x9899400" />
+    </children>
+  </item>
+  <item nodeId="node-0x9899400">
+    <command xml:space="preserve">attack mike</command>
+    <result xml:space="preserve">You: &quot;First perfumes and now these photos. In my eyes, you were always the faithful type Mike. I wouldn&apos;t believe such a thing even I would have seen it with my own two eyes. Why?&quot;
+Mary: &quot;Yes Mike, I&apos;d like to know WHY too.&quot;
+Mike: &quot;I&apos;m not appreciating how you guys are treating me right now. As if I&apos;m a convicted criminal.&quot;
+Mary: &quot;If we are treating you that way, is because you are acting like one Mike. What is the reason behind all these secretive behaviors?&quot;
+Mike: &quot;Fine, jeez. Let me explain then. Yes, I am in those photos and I&apos;ve been dancing with other ladies. But it&apos;s all because I&apos;ve been taking a dance classes.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x98d9430" />
+    </children>
+  </item>
+  <item nodeId="node-0x98d9430">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">House
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x9acbdb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9acbdb0">
+    <command xml:space="preserve">attack mary</command>
+    <result xml:space="preserve">You: &quot;Mary, you went through all the trouble of hiring an investigator. Have you ever considered asking Mike directly? Aren&apos;t you guys husband and wife? Don&apos;t you think talking with Mike would have given you the answer that you were looking for faster than any detective in the world?&quot;
+Mary: &quot;I… I don&apos;t know.&quot;
+Mike: &quot;OK. This is clearly getting waaay out of hand. Let me explain what&apos;s going on&quot;
+Mary holds her breath.
+Mike: &quot;The pictures are true. But that is literally all there is to it.&quot;
+Mary: &quot;What do you mean?&quot;
+Mike: &quot;Hmmm… How should I put it… Couple of months ago, I made a decision. I&apos;ve enrolled in a ballroom dancing class.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x98ea0d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x98ea0d0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">House
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x98c8490" />
+    </children>
+  </item>
+  <item nodeId="node-0x98c8490">
+    <command xml:space="preserve">defend mike</command>
+    <result xml:space="preserve">You: &quot;Mary, instead of having someone spy on Mike, shouldn&apos;t you have talked to him first? Doesn&apos;t he have the right to know before anyone else?&quot;
+Mary: &quot;Well I do have the right to know before anyone else too. If for any reason, Mike is bored of our relationship, shouldn&apos;t I be the first one that he talks to?&quot;
+Mike: &quot;Wow, what&apos;s going on here! Can you guys stop talking like I&apos;m not here? And Mary, you do have a vivid and scary imaginations. Didn&apos;t that friend of yours, Mr. detective, mention anything else other than the photos?&quot;
+Mary: &quot;No, he only sent me the photos and ask me whether I want him to continue the investigation or not. He didn&apos;t find any other evidence of anything else.
+Mike: &quot;Well because there is nothing to be found Mary! Let me confess what has been going on. I&apos;ve been taking dance classes.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x9a6f1f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9a6f1f0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">House
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x98702b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x98702b0">
+    <command xml:space="preserve">defend mary</command>
+    <result xml:space="preserve">You: &quot;Mike, she has every right to be concern.&quot;&quot;
+Mike: &quot;But to go as far as hiring someone to follow me? Why couldn&apos;t she asked me directly?&quot;
+Mary: &quot;I&apos;m sorry… But… But I was afraid.&quot;
+Mike: &quot;AFRAID?! Of me?&quot;&quot;
+Mary: &quot;No, Mike. Not of you. Of what I might have heard… Or worse, what you might not have told me.&quot;&quot;
+Mike: &quot;I&apos;m sorry Mary.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x988b4e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x988b4e0">
+    <command xml:space="preserve">attack mike</command>
+    <result xml:space="preserve">You: &quot;But why so secretive Mike? What are you? An obscurantist?&quot;
+Mike: &quot;No, I wasn&apos;t trying to hide it… I mean I was, but for good reasons.&quot;
+Mary: &quot;For what good reasons?&quot;
+Mike: &quot;To surprise you… On our anniversary. I&apos;ve been taking dance classes and practicing with a group on weekends. The daisy fragrance that you smelled on my clothes is my instructor&apos;s perfume.&quot;
+Mary: &quot;I&apos;m sorry Mike. I didn&apos;t know.&quot;
+Mike: &quot;It&apos;s alright. At least now I can practice my dance moves with you too.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x1244e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1244e0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">House
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x123cf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x123cf0">
+    <command xml:space="preserve">attack mary</command>
+    <result xml:space="preserve">You: &quot;Well, Mary, how do you feel now that you find out you hired a detective only to discover your unfaithful husband was secretly taking dance classes without letting you know?!&quot;
+Mary: &quot;Dance classes?! Really? That&apos;s all there is to it Mike?&quot;
+Mike: &quot;Yes, I told you.&quot;
+Mary: &quot;But, why didn&apos;t you tell me about it?&quot;
+Mike: &quot;Because it supposed to be a freaking surprise. On our anniversary.&quot;
+Mary: &quot;I&apos;m really sorry Mike. I&apos;m feeling really stupid right now.&quot;
+Mike: &quot;Well you SHOULD Mary. But don&apos;t worry too much about it. There is a silverlining to it. As it turned out, I&apos;m a very slow learner and Ms. Arlene, the one who you smelled her daisy perfume, doesn&apos;t have any other openings available for private students. I&apos;d appreciate it if you could practice with me. Our anniversary is approaching fast and I invited our parents. There is too much on the line here.&quot;
+Mary: &quot;Gladly Mike.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x98e7040" />
+    </children>
+  </item>
+  <item nodeId="node-0x98e7040">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">House
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x99f7f70" />
+    </children>
+  </item>
+  <item nodeId="node-0x99f7f70">
+    <command xml:space="preserve">defend mike</command>
+    <result xml:space="preserve">You: &quot;I knew it. The Mr. Meek Mike and adultery!&quot;
+Mike: &quot;You shut up!&quot;
+You: &quot;But why hide it?&quot;
+Mike: &quot;Well, it was supposed to be a surprise.&quot;
+You: &quot;Well it sure was.&quot;
+Mary: &quot;What do you mean, SURPRISE?!&quot;
+Mike: &quot;For our anniversary. I&apos;ve planned a small party. I talked to your dad and he told me that you like Waltz, Tango and Salsa. Every Thursday, I was practicing Waltz and Tango. The perfume that you smelled was from my instructor. Every other weekend, there is a social club gathering in town. I&apos;ve been participating and practicing Salsa. I don&apos;t have a fixed partner and I&apos;m practicing with whoever&apos;s available; hence the mixed perfumes.&quot;
+Mary: &quot;Oh, Mike. I am so sorry. I&apos;m so stupid. What have I been thinking?!&quot;
+Mike: &quot;Let me help you Mary. You WEREN&apos;T THINKING at all!&quot;
+Mike finished his sentence with a reassuring smile.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x989b500" />
+    </children>
+  </item>
+  <item nodeId="node-0x989b500">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">House
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0x134780" />
+    </children>
+  </item>
+  <item nodeId="node-0x134780">
+    <command xml:space="preserve">defend mary</command>
+    <result xml:space="preserve">You: &quot;Well I guess Mary&apos;s friend wasn&apos;t too far off with those photos. So, Mr. Baryshnikov, why so secret? I don&apos;t think Mary would be as bothered by it as she is now if she knew what was going on&quot;
+Mike: &quot;Because I didn&apos;t want her to find out&quot;
+Mary: &quot;Why not Mike?&quot;
+Mike: &quot;Because of you Mary. It supposed to be a surprise for you. The picture I had in mind was slightly different than what is happening now. I imagined everyone in a party are talking and having fun. Suddenly, the dance floor becomes empty and The Blue Danube starts. I&apos;ll walk toward you, elegantly. Stop in front of you, bowing graciously and offering my right hand. Your face will be a mixture of shock and embarrassment, but you accept my hand and dance with me. Our parents, friends, and Ms. Arlene, the lady who the Thursdays&quot; perfume belongs to, nodding their heads in acknowledgment.&quot;
+Mary: &quot;Oh, Mike. I&apos;m so sorry for ruining your surprise.&quot;
+Mike: &quot;It&apos;s alright. I&apos;m sure it wouldn&apos;t go that smoothly anyways.&quot;
+Mary: &quot;I&apos;ll tell you what, we are going to rehearse the dance many times before that night and I promise to act as surprised and embarrassed as I can.&quot;
+Mike: &quot;That&apos;s so sweet of you&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="152">YES</temporary>
+  </item>
+  <item nodeId="node-0x99c1d00">
+    <command xml:space="preserve">ring the bell</command>
+    <result xml:space="preserve">You hear someone approaching the door. Then a slightly irritated sound asks from behind the door: &quot;WHO IS IT?&quot; 
+You: &quot;Your only adorable blind friend!&quot;
+You hear the sound of door being opened and smiling voice welcoming you in. 
+
+You get inside the house.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="158">YES</temporary>
+    <children>
+      <child nodeId="node-0x9965800" />
+    </children>
+  </item>
+  <item nodeId="node-0x9965800">
+    <command xml:space="preserve">ask mike about the argument</command>
+    <result xml:space="preserve">You: &quot;Is everything ok between you guys?&quot;
+Mike: &quot;Oh! So, we were that loud? It&apos;s nothing serious… The usual hiccups in any relationships.&quot;
+You hear footsteps entering the room. Mary starts speaking.
+Mary: &quot;What do you mean it&apos;s not serious Michael?! How could it get any more serious?&quot;
+You: &quot;It sure sounds more than a hiccup body&quot; 
+Mary: &quot;Why don&apos;t you tell your friend what you&apos;ve done and let he be the judge...&quot; 
+You: &quot;Nice, I get to be the marriage counselor!&quot; 
+You can sense the weight of Mary&apos;s look on you. 
+Mary: &quot;Can you stop being a wise ass for a second!&quot; 
+You: &quot;sorry!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="157">YES</temporary>
+  </item>
+  <item nodeId="node-0x9abcb90">
+    <command xml:space="preserve">story</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="155">YES</temporary>
+    <children>
+      <child nodeId="node-0x98e5710" />
+    </children>
+  </item>
+  <item nodeId="node-0x98e5710">
+    <command xml:space="preserve">x story</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="154">YES</temporary>
+  </item>
+  <item nodeId="node-0x981ead0">
+    <command xml:space="preserve">hint</command>
+    <result xml:space="preserve">knock, listen, look, s, n
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="285">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997ee0" />
+      <child nodeId="node-0x99975b0" />
+      <child nodeId="node-0x981ebd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x981ebd0">
+    <command xml:space="preserve">knock</command>
+    <result xml:space="preserve">The argument stops and no more sound is coming from the house. As if no one has ever lived in this house. you better knock again.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1554">YES</temporary>
+    <children>
+      <child nodeId="node-0x981ec20" />
+    </children>
+  </item>
+  <item nodeId="node-0x981ec20">
+    <command xml:space="preserve">knock</command>
+    <result xml:space="preserve">You hear someone approaching the door. Then a slightly irritated sound asks from behind the door: &quot;WHO IS IT?&quot; 
+You answer: &quot;Your only adorable blind friend!&quot;
+You hear the sound of door being opened and smiling voice welcoming you in. 
+
+You get inside the house.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1554">YES</temporary>
+    <children>
+      <child nodeId="node-0x981ecb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x981ecb0">
+    <command xml:space="preserve">hint</command>
+    <result xml:space="preserve">Ask Mike about: house, day, weather, wife, mary, work, city, argument.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="1554">YES</temporary>
+    <children>
+      <child nodeId="node-0x99970d0" />
+      <child nodeId="node-0x981ed20" />
+    </children>
+  </item>
+  <item nodeId="node-0x981ed20">
+    <command xml:space="preserve">ask mike about the houes</command>
+    <result xml:space="preserve">2
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1554">YES</temporary>
+    <children>
+      <child nodeId="node-0x981ed90" />
+    </children>
+  </item>
+  <item nodeId="node-0x981ed90">
+    <command xml:space="preserve">ask mike about the house</command>
+    <result xml:space="preserve">You ask Mike about the house. 
+Mike: &quot;Ah, it&apos;s your first time here. It&apos;s not bad. Mary loves the garden. She spends most of her free time there. The house itself is pretty small, the kitchen is cozy and the living room is only a fancified corridor. No complains for the bedroom though. It&apos;s big enough for a us to live in it happily.&quot; 
+You sense a hint of irony in Mike&apos;s voice.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1554">YES</temporary>
+    <children>
+      <child nodeId="node-0x9996710" />
+    </children>
+  </item>
+  <item nodeId="node-0x9996710">
+    <command xml:space="preserve">ask mike about house</command>
+    <result xml:space="preserve">Mike: &quot;We&apos;ve already talked about it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1554">YES</temporary>
+    <children>
+      <child nodeId="node-0x9996760" />
+    </children>
+  </item>
+  <item nodeId="node-0x9996760">
+    <command xml:space="preserve">ask mike about argument</command>
+    <result xml:space="preserve">Mike: &quot;Oh! So, we were that loud. It&apos;s nothing serious… The usual hiccups in any relationships.&quot; 
+You hear footsteps entering the room. Mary starts speaking. 
+Mary: &quot;What do you mean it&apos;s not serious Michael?! How could it get any more serious?&quot; 
+You: &quot;It sure is more than a hiccup body&quot; 
+Mary: &quot;Why don&apos;t you tell him what have you done? Let he be the judge...&quot; 
+You: &quot;Nice, I get to be the marriage consultant!&quot; 
+You can sense the weight of Mary&apos;s look on you. 
+Mary: &quot;Can you stop being a wise ass for a second!&quot; 
+You: &quot;sorry!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1554">YES</temporary>
+    <children>
+      <child nodeId="node-0x99967b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x99967b0">
+    <command xml:space="preserve">hint</command>
+    <result xml:space="preserve">Ask Mike about: house, day, weather, wife, mary, work, city, argument, what happened.
+Ask Mary about: what happened.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1554">YES</temporary>
+    <children>
+      <child nodeId="node-0x9996800" />
+    </children>
+  </item>
+  <item nodeId="node-0x9996800">
+    <command xml:space="preserve">ask mike about what happened</command>
+    <result xml:space="preserve">Mike: &quot;Nothing! Really! I don&apos;t know what caused her to act like this. She kept asking me whether I have anything to say to her or not. I&apos;m as confused as you.&quot;
+Mary starts talking.
+Mary: &quot;It started couple of months ago. Mike was coming home late once a week. After a while I realized there is a pattern to it. Every Thursday he would be couple of hours late. Also, every other weekends, he would make up an excuse and would go out for half a day. What&apos;s worst is, on Thursdays he always smells of one particular perfume. It never changes. On weekends, the perfumes are mix and hard to distinguish.&quot; 
+Mike: &quot;Why were you smelling my clothes?!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1554">YES</temporary>
+    <children>
+      <child nodeId="node-0x9996870" />
+    </children>
+  </item>
+  <item nodeId="node-0x9996870">
+    <command xml:space="preserve">hint</command>
+    <result xml:space="preserve">You attack or defend either Mike or Mary.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1554">YES</temporary>
+    <children>
+      <child nodeId="node-0x99969a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x99969a0">
+    <command xml:space="preserve">attack mike</command>
+    <result xml:space="preserve">&quot;I was prepared to defend you no matter what she throwed at me. But, I don&apos;t really know what to say to this Mike. Care to give us some explanations?&quot; 
+Mike: &quot;Mary, I&apos;m telling you it&apos;s not what you think. I don&apos;t even know where did you get these weird ideas. I don&apos;t want to hear it anymore.&quot; 
+Mike stands up. The living room is painfully silence. Mary is holding her tears. 
+She looks at you and says: &quot;let me show you something.&quot;
+
+Mary leaves her chair and walks to her room. Then immediately comes back while carrying something with herself. She puts the package in front of you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1554">YES</temporary>
+    <children>
+      <child nodeId="node-0x981ee20" />
+    </children>
+  </item>
+  <item nodeId="node-0x981ee20">
+    <command xml:space="preserve">hint</command>
+    <result xml:space="preserve">Ask Mary about: package.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1554">YES</temporary>
+    <children>
+      <child nodeId="node-0x9996a10" />
+    </children>
+  </item>
+  <item nodeId="node-0x9996a10">
+    <command xml:space="preserve">ask mary about the package</command>
+    <result xml:space="preserve">Mary: &quot;Open it. You&apos;ll see.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1554">YES</temporary>
+    <children>
+      <child nodeId="node-0x9996a80" />
+    </children>
+  </item>
+  <item nodeId="node-0x9996a80">
+    <command xml:space="preserve">open the package</command>
+    <result xml:space="preserve">You open package, revealing papers.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1554">YES</temporary>
+    <children>
+      <child nodeId="node-0x9996af0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9996af0">
+    <command xml:space="preserve">take papers</command>
+    <result xml:space="preserve">You open the package and take out the papers inside it.
+
+Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1554">YES</temporary>
+    <children>
+      <child nodeId="node-0x9996b60" />
+    </children>
+  </item>
+  <item nodeId="node-0x9996b60">
+    <command xml:space="preserve">x papers</command>
+    <result xml:space="preserve">There are multiple glossy papers as big as your palm.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1554">YES</temporary>
+    <children>
+      <child nodeId="node-0x9996bd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9996bd0">
+    <command xml:space="preserve">hint</command>
+    <result xml:space="preserve">Ask Mary about: package, papers.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1554">YES</temporary>
+    <children>
+      <child nodeId="node-0x9996c40" />
+    </children>
+  </item>
+  <item nodeId="node-0x9996c40">
+    <command xml:space="preserve">ask mary about the papers</command>
+    <result xml:space="preserve">Mary, what are these papers? 
+Mary: &quot;Sorry, I forgot about your condition. These are pictures of Mike being intimate with different ladies.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1554">YES</temporary>
+    <children>
+      <child nodeId="node-0x99968e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x99968e0">
+    <command xml:space="preserve">hint</command>
+    <result xml:space="preserve">You attack or defend either Mike or Mary.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1554">YES</temporary>
+    <children>
+      <child nodeId="node-0x9996930" />
+    </children>
+  </item>
+  <item nodeId="node-0x9996930">
+    <command xml:space="preserve">attack mike</command>
+    <result xml:space="preserve"> knowWhy is 3
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1554">YES</temporary>
+    <children>
+      <child nodeId="node-0x9996e30" />
+    </children>
+  </item>
+  <item nodeId="node-0x9996e30">
+    <command xml:space="preserve">hint</command>
+    <result xml:space="preserve">You attack or defend either Mike or Mary.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1554">YES</temporary>
+    <children>
+      <child nodeId="node-0x9996ea0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9996ea0">
+    <command xml:space="preserve">attack mike</command>
+    <result xml:space="preserve">knowWhy is 4 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1554">YES</temporary>
+    <children>
+      <child nodeId="node-0x9996f10" />
+    </children>
+  </item>
+  <item nodeId="node-0x9996f10">
+    <command xml:space="preserve">attack mike</command>
+    <result xml:space="preserve"> knowWhy is 5
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1554">YES</temporary>
+    <children>
+      <child nodeId="node-0x9996f80" />
+    </children>
+  </item>
+  <item nodeId="node-0x9996f80">
+    <command xml:space="preserve">ask mike about what happened</command>
+    <result xml:space="preserve">Mike &quot;C&apos;mon Not Now&quot;
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1554">YES</temporary>
+    <children>
+      <child nodeId="node-0x9996ff0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9996ff0">
+    <command xml:space="preserve">ask mary about the package</command>
+    <result xml:space="preserve">Mary: &quot;What else do you wanna know?&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1554">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997060" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997060">
+    <command xml:space="preserve">ask mary about asdl;ashdf;</command>
+    <result xml:space="preserve">Mary: &quot;Not Now.&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1553">YES</temporary>
+  </item>
+  <item nodeId="node-0x99970d0">
+    <command xml:space="preserve">ask mike about the argument</command>
+    <result xml:space="preserve">Mike: &quot;Oh! So, we were that loud. It&apos;s nothing serious… The usual hiccups in any relationships.&quot; 
+You hear footsteps entering the room. Mary starts speaking. 
+Mary: &quot;What do you mean it&apos;s not serious Michael?! How could it get any more serious?&quot; 
+You: &quot;It sure is more than a hiccup body&quot; 
+Mary: &quot;Why don&apos;t you tell him what have you done? Let he be the judge...&quot; 
+You: &quot;Nice, I get to be the marriage consultant!&quot; 
+You can sense the weight of Mary&apos;s look on you. 
+Mary: &quot;Can you stop being a wise ass for a second!&quot; 
+You: &quot;sorry!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="820">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997140" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997140">
+    <command xml:space="preserve">hint</command>
+    <result xml:space="preserve">Ask Mike about: house, day, weather, wife, mary, work, city, argument, what happened.
+Ask Mary about: what happened.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="820">YES</temporary>
+    <children>
+      <child nodeId="node-0x99971b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x99971b0">
+    <command xml:space="preserve">ask mike what happened</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="820">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997220" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997220">
+    <command xml:space="preserve">ask mike abotu what happened</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="820">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997290" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997290">
+    <command xml:space="preserve">ask mike abotut what happened</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="820">YES</temporary>
+    <children>
+      <child nodeId="node-0x9996cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9996cb0">
+    <command xml:space="preserve">ask mike about what happened</command>
+    <result xml:space="preserve">Mike: &quot;Nothing! Really! I don&apos;t know what caused her to act like this. She kept asking me whether I have anything to say to her or not. I&apos;m as confused as you.&quot;
+Mary starts talking.
+Mary: &quot;It started couple of months ago. Mike was coming home late once a week. After a while I realized there is a pattern to it. Every Thursday he would be couple of hours late. Also, every other weekends, he would make up an excuse and would go out for half a day. What&apos;s worst is, on Thursdays he always smells of one particular perfume. It never changes. On weekends, the perfumes are mix and hard to distinguish.&quot; 
+Mike: &quot;Why were you smelling my clothes?!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="820">YES</temporary>
+    <children>
+      <child nodeId="node-0x9996d20" />
+    </children>
+  </item>
+  <item nodeId="node-0x9996d20">
+    <command xml:space="preserve">hint</command>
+    <result xml:space="preserve">Ask Mike about: house, day, weather, wife, mary, work, city, argument, what happened.
+Ask Mary about: what happened.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="820">YES</temporary>
+    <children>
+      <child nodeId="node-0x9996d90" />
+    </children>
+  </item>
+  <item nodeId="node-0x9996d90">
+    <command xml:space="preserve">attack mike</command>
+    <result xml:space="preserve">&quot;I was prepared to defend you no matter what she throwed at me. But, I don&apos;t really know what to say to this Mike. Care to give us some explanations?&quot; 
+Mike: &quot;Mary, I&apos;m telling you it&apos;s not what you think. I don&apos;t even know where did you get these weird ideas. I don&apos;t want to hear it anymore.&quot; 
+Mike stands up. The living room is painfully silence. Mary is holding her tears. 
+She looks at you and says: &quot;let me show you something.&quot;
+
+Mary leaves her chair and walks to her room. Then immediately comes back while carrying something with herself. She puts the package in front of you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="820">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997540" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997540">
+    <command xml:space="preserve">hint</command>
+    <result xml:space="preserve">Ask Mike about: house, day, weather, wife, mary, work, city, argument, what happened.
+Ask Mary about: what happened, package.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="819">YES</temporary>
+  </item>
+  <item nodeId="node-0x99975b0">
+    <command xml:space="preserve">listen</command>
+    <result xml:space="preserve">To get a grasp of the situation, you close your ear to the door and listen carefully.
+Woman: &quot;you know what Michael?! I think it&apos;s enough. I don&apos;t want to talk about it anymore and I&apos;m tired of acting like a fool. That&apos;s it for us.&quot;
+The footsteps of the woman started rushing away from the living room.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1312">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997620" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997620">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">(first opening the wooden door)
+I think it&apos;d be rude to open someone else&apos;s door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1312">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997690" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997690">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">I think it&apos;d be rude to open someone else&apos;s door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1312">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997700" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997700">
+    <command xml:space="preserve">knock</command>
+    <result xml:space="preserve">The argument stops and no more sound is coming from the house. As if no one has ever lived in this house. you better knock again.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1312">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997770" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997770">
+    <command xml:space="preserve">hint</command>
+    <result xml:space="preserve">knock, listen, look, s, n
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1312">YES</temporary>
+    <children>
+      <child nodeId="node-0x99977e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x99977e0">
+    <command xml:space="preserve">listen</command>
+    <result xml:space="preserve">You can only hear the sound of cars in the street.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1312">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997850" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997850">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Scent of Jasmine mixed with citrus gives you relief. You get to the door. You hear the sound of argument coming from the other side of the door. Standing there, frozen and unsure of what to do.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1312">YES</temporary>
+    <children>
+      <child nodeId="node-0x99978c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x99978c0">
+    <command xml:space="preserve">knock</command>
+    <result xml:space="preserve">You hear someone approaching the door. Then a slightly irritated sound asks from behind the door: &quot;WHO IS IT?&quot; 
+You answer: &quot;Your only adorable blind friend!&quot;
+You hear the sound of door being opened and smiling voice welcoming you in. 
+
+You get inside the house.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1312">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997930" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997930">
+    <command xml:space="preserve">hint</command>
+    <result xml:space="preserve">Ask Mike about: house, day, weather, wife, mary, work, city, argument.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1312">YES</temporary>
+    <children>
+      <child nodeId="node-0x99979a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x99979a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">(first opening the wooden door)
+It&apos;d be rude to leave the house now.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1312">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997a10" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997a10">
+    <command xml:space="preserve">ask mike about 3</command>
+    <result xml:space="preserve">4
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1312">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997a80" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997a80">
+    <command xml:space="preserve">attack mike</command>
+    <result xml:space="preserve">You can&apos;t do that action at the moment!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1312">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997af0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997af0">
+    <command xml:space="preserve">attack mary</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1312">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997b60" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997b60">
+    <command xml:space="preserve">ask about the argument</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1312">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997bd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997bd0">
+    <command xml:space="preserve">ask mike about the argument</command>
+    <result xml:space="preserve">Mike: &quot;Oh! So, we were that loud. It&apos;s nothing serious… The usual hiccups in any relationships.&quot; 
+You hear footsteps entering the room. Mary starts speaking. 
+Mary: &quot;What do you mean it&apos;s not serious Michael?! How could it get any more serious?&quot; 
+You: &quot;It sure is more than a hiccup body&quot; 
+Mary: &quot;Why don&apos;t you tell him what have you done? Let he be the judge...&quot; 
+You: &quot;Nice, I get to be the marriage consultant!&quot; 
+You can sense the weight of Mary&apos;s look on you. 
+Mary: &quot;Can you stop being a wise ass for a second!&quot; 
+You: &quot;sorry!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1312">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997c40" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997c40">
+    <command xml:space="preserve">attack mike</command>
+    <result xml:space="preserve">You can&apos;t do that action at the moment!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1312">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997300" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997300">
+    <command xml:space="preserve">hint</command>
+    <result xml:space="preserve">Ask Mike about: house, day, weather, wife, mary, work, city, argument, what happened.
+Ask Mary about: what happened.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1312">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997370" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997370">
+    <command xml:space="preserve">ask mary about what happened</command>
+    <result xml:space="preserve">you ask Mary what&apos;s wrong. 
+Mary: &quot;It started couple of months ago. Mike was coming home late once a week. after a while I realized there is a pattern to it. Every Thursday he would be couple of hours late. Also, every other weekends, he would make up an excuse and would go out for half a day. What&apos;s worst is, on Thursdays he always smells of one particular perfume. It never changes. On weekends, the perfumes are mix and hard to distinguish.&quot; 
+Mike: &quot;Why were you smelling my clothes?!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1312">YES</temporary>
+    <children>
+      <child nodeId="node-0x99973e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x99973e0">
+    <command xml:space="preserve">hint</command>
+    <result xml:space="preserve">You attack or defend either Mike or Mary.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1312">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997450" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997450">
+    <command xml:space="preserve">ask mike about house</command>
+    <result xml:space="preserve">It&apos;s too serious to ask about something.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1312">YES</temporary>
+    <children>
+      <child nodeId="node-0x99974c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x99974c0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">House
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1312">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997cb0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">House
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1312">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997d20" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997d20">
+    <command xml:space="preserve">ask mike about what happened</command>
+    <result xml:space="preserve">It&apos;s too serious to ask about something.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1312">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997d90" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997d90">
+    <command xml:space="preserve">showme</command>
+    <result xml:space="preserve">House - room
+    Mary - person
+    wooden door - locked door
+    yourself - person
+    Mike - person
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1312">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997e00" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997e00">
+    <command xml:space="preserve">hint</command>
+    <result xml:space="preserve">You attack or defend either Mike or Mary.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1312">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997e70" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997e70">
+    <command xml:space="preserve">attack mike</command>
+    <result xml:space="preserve">&quot;I was prepared to defend you no matter what she throwed at me. But, I don&apos;t really know what to say to this Mike. Care to give us some explanations?&quot; 
+Mike: &quot;Mary, I&apos;m telling you it&apos;s not what you think. I don&apos;t even know where did you get these weird ideas. I don&apos;t want to hear it anymore.&quot; 
+Mike stands up. The living room is painfully silence. Mary is holding her tears. 
+She looks at you and says: &quot;let me show you something.&quot;
+
+Mary leaves her chair and walks to her room. Then immediately comes back while carrying something with herself. She puts the package in front of you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1311">YES</temporary>
+  </item>
+  <item nodeId="node-0x9997ee0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+
+    *** Listening to Mike and Mary argue brings back old memories. It was always hard for you to stay out of their arguments. You alway wanted to jump in and make things better, but somehow things alwats end up getting worse. Mike and Mary didn&apos;t like it when you got involved. These are memories you have been trying to forget, so you decide to return home. ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="891">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997f50" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997f50">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Porch
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="891">YES</temporary>
+    <children>
+      <child nodeId="node-0x9997fc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9997fc0">
+    <command xml:space="preserve">listen</command>
+    <result xml:space="preserve">To get a grasp of the situation, you close your ear to the door and listen carefully.
+Woman: &quot;you know what Michael?! I think it&apos;s enough. I don&apos;t want to talk about it anymore and I&apos;m tired of acting like a fool. That&apos;s it for us.&quot;
+The footsteps of the woman started rushing away from the living room.
+
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="891">YES</temporary>
+    <children>
+      <child nodeId="node-0x9998030" />
+    </children>
+  </item>
+  <item nodeId="node-0x9998030">
+    <command xml:space="preserve">knock</command>
+    <result xml:space="preserve">The argument stops and no more sound is coming from the house. As if no one has ever lived in this house. you better knock again.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="891">YES</temporary>
+    <children>
+      <child nodeId="node-0x99980a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x99980a0">
+    <command xml:space="preserve">knock</command>
+    <result xml:space="preserve">You hear someone approaching the door. Then a slightly irritated sound asks from behind the door: &quot;WHO IS IT?&quot; 
+You answer: &quot;Your only adorable blind friend!&quot;
+You hear the sound of door being opened and smiling voice welcoming you in. 
+
+You get inside the house.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="891">YES</temporary>
+    <children>
+      <child nodeId="node-0x9998110" />
+    </children>
+  </item>
+  <item nodeId="node-0x9998110">
+    <command xml:space="preserve">hint</command>
+    <result xml:space="preserve">Ask Mike about: house, day, weather, wife, mary, work, city, argument.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="891">YES</temporary>
+    <children>
+      <child nodeId="node-0x9998180" />
+    </children>
+  </item>
+  <item nodeId="node-0x9998180">
+    <command xml:space="preserve">attack mike</command>
+    <result xml:space="preserve">You can&apos;t do that action at the moment!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="891">YES</temporary>
+    <children>
+      <child nodeId="node-0x99981f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x99981f0">
+    <command xml:space="preserve">ask mike about the argumetn</command>
+    <result xml:space="preserve">Mike: &quot;It&apos;s non of your goddamn business&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="891">YES</temporary>
+    <children>
+      <child nodeId="node-0x9998260" />
+    </children>
+  </item>
+  <item nodeId="node-0x9998260">
+    <command xml:space="preserve">ask mike about the argument</command>
+    <result xml:space="preserve">Mike: &quot;Oh! So, we were that loud. It&apos;s nothing serious… The usual hiccups in any relationships.&quot; 
+You hear footsteps entering the room. Mary starts speaking. 
+Mary: &quot;What do you mean it&apos;s not serious Michael?! How could it get any more serious?&quot; 
+You: &quot;It sure is more than a hiccup body&quot; 
+Mary: &quot;Why don&apos;t you tell him what have you done? Let he be the judge...&quot; 
+You: &quot;Nice, I get to be the marriage consultant!&quot; 
+You can sense the weight of Mary&apos;s look on you. 
+Mary: &quot;Can you stop being a wise ass for a second!&quot; 
+You: &quot;sorry!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="891">YES</temporary>
+    <children>
+      <child nodeId="node-0x99982d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x99982d0">
+    <command xml:space="preserve">hint</command>
+    <result xml:space="preserve">Ask Mike about: house, day, weather, wife, mary, work, city, argument, what happened.
+Ask Mary about: what happened.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="891">YES</temporary>
+    <children>
+      <child nodeId="node-0x9998340" />
+    </children>
+  </item>
+  <item nodeId="node-0x9998340">
+    <command xml:space="preserve">attack mike</command>
+    <result xml:space="preserve">You can&apos;t do that action at the moment!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="891">YES</temporary>
+    <children>
+      <child nodeId="node-0x99983b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x99983b0">
+    <command xml:space="preserve">ask mike about what happened</command>
+    <result xml:space="preserve">Mike: &quot;Nothing! Really! I don&apos;t know what caused her to act like this. She kept asking me whether I have anything to say to her or not. I&apos;m as confused as you.&quot;
+Mary starts talking.
+Mary: &quot;It started couple of months ago. Mike was coming home late once a week. After a while I realized there is a pattern to it. Every Thursday he would be couple of hours late. Also, every other weekends, he would make up an excuse and would go out for half a day. What&apos;s worst is, on Thursdays he always smells of one particular perfume. It never changes. On weekends, the perfumes are mix and hard to distinguish.&quot; 
+Mike: &quot;Why were you smelling my clothes?!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="891">YES</temporary>
+    <children>
+      <child nodeId="node-0x9998420" />
+    </children>
+  </item>
+  <item nodeId="node-0x9998420">
+    <command xml:space="preserve">attack mike</command>
+    <result xml:space="preserve">&quot;I was prepared to defend you no matter what she throwed at me. But, I don&apos;t really know what to say to this Mike. Care to give us some explanations?&quot; 
+Mike: &quot;Mary, I&apos;m telling you it&apos;s not what you think. I don&apos;t even know where did you get these weird ideas. I don&apos;t want to hear it anymore.&quot; 
+Mike stands up. The living room is painfully silence. Mary is holding her tears. 
+She looks at you and says: &quot;let me show you something.&quot;
+
+Mary leaves her chair and walks to her room. Then immediately comes back while carrying something with herself. She puts the package in front of you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="891">YES</temporary>
+    <children>
+      <child nodeId="node-0x9998490" />
+    </children>
+  </item>
+  <item nodeId="node-0x9998490">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">House
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="891">YES</temporary>
+    <children>
+      <child nodeId="node-0x9998500" />
+    </children>
+  </item>
+  <item nodeId="node-0x9998500">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">House
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="891">YES</temporary>
+    <children>
+      <child nodeId="node-0x9998570" />
+    </children>
+  </item>
+  <item nodeId="node-0x9998570">
+    <command xml:space="preserve">ask mary about what happened</command>
+    <result xml:space="preserve">you ask Mary what&apos;s wrong. 
+Mary: &quot;It started couple of months ago. Mike was coming home late once a week. after a while I realized there is a pattern to it. Every Thursday he would be couple of hours late. Also, every other weekends, he would make up an excuse and would go out for half a day. What&apos;s worst is, on Thursdays he always smells of one particular perfume. It never changes. On weekends, the perfumes are mix and hard to distinguish.&quot; 
+Mike: &quot;Why were you smelling my clothes?!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="891">YES</temporary>
+    <children>
+      <child nodeId="node-0x99985e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x99985e0">
+    <command xml:space="preserve">attack mary</command>
+    <result xml:space="preserve">&quot;I&apos;m not sure what the result of our talk will be Mary. But, don&apos;t you think sniffing Mike&apos;s clothes was going a step too far?!&quot; 
+Mary: &quot;of course you would side with him. You are his college friend after all.&quot;
+
+Mary leaves her chair and walks to her room. Then immediately comes back while carrying something with herself. She puts the package in front of you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="891">YES</temporary>
+    <children>
+      <child nodeId="node-0x9998650" />
+    </children>
+  </item>
+  <item nodeId="node-0x9998650">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">House
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="891">YES</temporary>
+    <children>
+      <child nodeId="node-0x99986c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x99986c0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">House
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="891">YES</temporary>
+    <children>
+      <child nodeId="node-0x9998730" />
+    </children>
+  </item>
+  <item nodeId="node-0x9998730">
+    <command xml:space="preserve">hint</command>
+    <result xml:space="preserve">Ask Mike about: house, day, weather, wife, mary, work, city, argument, what happened.
+Ask Mary about: what happened.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="891">YES</temporary>
+    <children>
+      <child nodeId="node-0x99987a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x99987a0">
+    <command xml:space="preserve">ask mary about what happened</command>
+    <result xml:space="preserve">you ask Mary what&apos;s wrong. 
+Mary: &quot;It started couple of months ago. Mike was coming home late once a week. after a while I realized there is a pattern to it. Every Thursday he would be couple of hours late. Also, every other weekends, he would make up an excuse and would go out for half a day. What&apos;s worst is, on Thursdays he always smells of one particular perfume. It never changes. On weekends, the perfumes are mix and hard to distinguish.&quot; 
+Mike: &quot;Why were you smelling my clothes?!&quot;
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="891">YES</temporary>
+    <children>
+      <child nodeId="node-0x9998810" />
+    </children>
+  </item>
+  <item nodeId="node-0x9998810">
+    <command xml:space="preserve">hint</command>
+    <result xml:space="preserve">You attack or defend either Mike or Mary.
+Ask Mike about: house, day, weather, wife, mary, work, city, argument, what happened.
+Ask Mary about: what happened.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="890">YES</temporary>
+  </item>
+  <item nodeId="node-0x9960830">
+    <command xml:space="preserve">end1</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="253">YES</temporary>
+    <children>
+      <child nodeId="node-0x19215110" />
+    </children>
+  </item>
+  <item nodeId="node-0x19215110">
+    <command xml:space="preserve">test end1</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] knock
+The argument stops and no more sound is coming from the house. As if no one has ever lived in this house. you better knock again.
+
+&gt;[2] knock
+You hear someone approaching the door. Then a slightly irritated sound asks from behind the door: &quot;WHO IS IT?&quot; 
+You: &quot;Your only adorable blind friend!&quot;
+You hear the sound of door being opened and smiling voice welcoming you in. 
+
+You get inside the house.
+
+&gt;[3] ask mike about the argument
+You: &quot;Is everything ok between you guys?&quot;
+Mike: &quot;Oh! So, we were that loud? It&apos;s nothing serious… The usual hiccups in any relationships.&quot;
+You hear footsteps entering the room. Mary starts speaking.
+Mary: &quot;What do you mean it&apos;s not serious Michael?! How could it get any more serious?&quot;
+You: &quot;It sure sounds more than a hiccup body&quot; 
+Mary: &quot;Why don&apos;t you tell your friend what you&apos;ve done and let he be the judge...&quot; 
+You: &quot;Nice, I get to be the marriage counselor!&quot; 
+You can sense the weight of Mary&apos;s look on you. 
+Mary: &quot;Can you stop being a wise ass for a second!&quot; 
+You: &quot;sorry!&quot;
+
+&gt;[4] ask mike about what happened
+You: &quot;What happened?&quot;
+Mike: &quot;Nothing! Really! I don&apos;t know what caused her to act like this. She kept asking me whether I have anything to say to her or not. I&apos;m as confused as you.&quot;
+Mary: &quot;It started couple of months ago. Mike was coming home late once a week. After a while I realized there is a pattern to it. Every Thursday he would be couple of hours late. Also, every other weekends, he would make up an excuse and would go out for half a day. What&apos;s worst is, on Thursdays he always smells of one particular perfume. It never changes. On weekends, the perfumes are mix and hard to distinguish.&quot;
+Mike: &quot;Why were you smelling my clothes?!&quot;
+
+&gt;[5] attack mike
+You: &quot;I was prepared to defend you no matter what she threw at me. But, I don&apos;t really know what to say to this Mike. Care to give us some explanations?&quot; 
+Mike: &quot;Mary, I&apos;m telling you it&apos;s not what you think. I don&apos;t even know where you got these weird ideas. I don&apos;t want to hear it anymore.&quot; 
+Mike stands up. The living room is painfully silent. Mary is holding her tears. She looks at you.
+Mary: &quot;let me show you something.&quot;
+
+Mary leaves her chair and walks to her room. Then immediately comes back while carrying something with herself. She puts a package in front of you.
+
+&gt;[6] take package
+Taken.
+
+&gt;[7] open package
+You open package, revealing papers.
+
+&gt;[8] take papers
+You open the package and take out the papers inside it.
+
+Taken.
+
+&gt;[9] x papers
+There are multiple glossy papers as big as your palm.
+
+&gt;[10] ask mary about the papers
+You: &quot;Mary, what are these papers?&quot;
+Mary: &quot;Sorry, I forgot about your condition. These are pictures of Mike being intimate with different ladies.&quot;
+
+&gt;[11] defend mary
+You: &quot;Mike, can you explain the content of these photos?&quot;
+Mike: &quot;These photos show me dancing with other people. I don&apos;t know why Mary is getting so worked up about these. Also, I&apos;m curious to know how she got these?&quot;
+Mary: &quot;Can you stop treating me like a fool Mike? And for God&apos;s sake stop acting so matter-of-factly about it. It&apos;s hurting me seeing how indifferent you&apos;ve become. The photos are coming from a reliable source. An investigator who was hired by me when I first noticed your abnormal behavior.&quot;
+
+&gt;[12] attack mike
+You: &quot;First perfumes and now these photos. In my eyes, you were always the faithful type Mike. I wouldn&apos;t believe such a thing even I would have seen it with my own two eyes. Why?&quot;
+Mary: &quot;Yes Mike, I&apos;d like to know WHY too.&quot;
+Mike: &quot;I&apos;m not appreciating how you guys are treating me right now. As if I&apos;m a convicted criminal.&quot;
+Mary: &quot;If we are treating you that way, is because you are acting like one Mike. What is the reason behind all these secretive behaviors?&quot;
+Mike: &quot;Fine, jeez. Let me explain then. Yes, I am in those photos and I&apos;ve been dancing with other ladies. But it&apos;s all because I&apos;ve been taking a dance classes.&quot;
+
+&gt;[13] defend mary
+You: &quot;Well I guess Mary&apos;s friend wasn&apos;t too far off with those photos. So, Mr. Baryshnikov, why so secret? I don&apos;t think Mary would be as bothered by it as she is now if she knew what was going on&quot;
+Mike: &quot;Because I didn&apos;t want her to find out&quot;
+Mary: &quot;Why not Mike?&quot;
+Mike: &quot;Because of you Mary. It supposed to be a surprise for you. The picture I had in mind was slightly different than what is happening now. I imagined everyone in a party are talking and having fun. Suddenly, the dance floor becomes empty and The Blue Danube starts. I&apos;ll walk toward you, elegantly. Stop in front of you, bowing graciously and offering my right hand. Your face will be a mixture of shock and embarrassment, but you accept my hand and dance with me. Our parents, friends, and Ms. Arlene, the lady who the Thursdays&quot; perfume belongs to, nodding their heads in acknowledgment.&quot;
+Mary: &quot;Oh, Mike. I&apos;m so sorry for ruining your surprise.&quot;
+Mike: &quot;It&apos;s alright. I&apos;m sure it wouldn&apos;t go that smoothly anyways.&quot;
+Mary: &quot;I&apos;ll tell you what, we are going to rehearse the dance many times before that night and I promise to act as surprised and embarrassed as I can.&quot;
+Mike: &quot;That&apos;s so sweet of you&quot;
+
+
+    *** 
+
+You: &quot;So, Mr. Romantic, do you try to surprise your wife often?&quot;
+Mike: &quot;No, it was the first time. I thought our anniversary should be something special.&quot;
+You: &quot;It sure was. Don&apos;t worry, you need a lot of practice though. And please don&apos;t act so suspicious next time when you are planning a surprise. Perfume on your clothes, patterned schedule changes, leaving the house on any day other than workdays, they are all red flags.&quot;
+Mary: &quot;Wait a minute, are you teaching him how to deceive me?&quot;
+You: &quot;No, Mary, I&apos;m not. I&apos;m teaching him how to surprise you. How he wants to use that knowledge is totally up to him.&quot;
+
+ ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="253">YES</temporary>
+    <children>
+      <child nodeId="node-0x1a9beb70" />
+    </children>
+  </item>
+  <item nodeId="node-0x1a9beb70">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="253">YES</temporary>
+    <children>
+      <child nodeId="node-0x1a9c4370" />
+    </children>
+  </item>
+  <item nodeId="node-0x1a9c4370">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="253">YES</temporary>
+    <children>
+      <child nodeId="node-0x1a90ecb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1a90ecb0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="252">YES</temporary>
+  </item>
+  <item nodeId="node-0x30d0a0b0">
+    <command xml:space="preserve">test ending</command>
+    <result xml:space="preserve">(Testing.)
+
+&gt;[1] listen
+To get a grasp of the situation, you close your ear to the door and listen carefully.
+Woman: &quot;you know what Michael?! I think it&apos;s enough. I don&apos;t want to talk about it anymore and I&apos;m tired of acting like a fool. That&apos;s it for us.&quot;
+The footsteps of the woman started rushing away from the living room.
+
+
+&gt;[2] hint
+knock, listen, look, south, north.
+
+&gt;[3] knock
+The argument stops and no more sound is coming from the house. As if no one has ever lived in this house. you better knock again.
+
+&gt;[4] listen
+You can only hear the sound of cars in the street.
+
+
+&gt;[5] ring the bell
+You hear someone approaching the door. Then a slightly irritated sound asks from behind the door: &quot;WHO IS IT?&quot; 
+You: &quot;Your only adorable blind friend!&quot;
+You hear the sound of door being opened and smiling voice welcoming you in. 
+
+You get inside the house.
+
+&gt;[6] ask mike about how he has been
+You: &quot;So, how have you been?&quot;
+Mike: &quot;I&apos;ve been great. Away from friends and my parents but I ain&apos;t complaining.&quot;
+
+&gt;[7] ask mike about mary
+You: &quot; How&apos;s Mary?&quot;
+Mike: &quot;Oh, Mary is good. She&apos;s here too. She is in her room, taking care of some stuff. She should be done soon. She&apos;ll be happy to know that you are here.&quot;
+
+&gt;[8] hint
+Ask Mike about: house, day, how he has been, life, weather, wife, mary, work, city, argument, etc.
+
+&gt;[9] ask mike about house
+You: &quot;How do you like the house?&quot;
+Mike: &quot;Ah, it&apos;s your first time here. It&apos;s not bad. Mary loves the garden. She spends most of her free time there. The house itself is pretty small, the kitchen is cozy and the living room is only a fancified corridor. No complains for the bedroom though. It&apos;s big enough for us to live in it happily.&quot; 
+You sense a hint of irony in Mike&apos;s voice.
+
+&gt;[10] ask mike about mom
+Mike: &quot;We&apos;ll talk about it later.&quot;
+
+&gt;[11] ask mike about the city
+You: &quot;How do you like the city?&quot;
+Mike: &quot;It&apos;s very quiet. It only has three movie theaters of which, one is always being repaired and the other has chairs with nails sticking out of them. There is a wonderful grocery shop in 4 min walking distance from us. Most of what it offers, which isn&apos;t that many, are locally grown. If you drive south you&apos;ll get to the ocean. There are multiple small nurseries down the road too. We bought a orange tree from it half a year ago. Mary planted it in the garden. Every morning she checks on it for any sign of fruits. Keep it a secret but I think she actually named the tree.&quot;
+
+&gt;[12] ask mike about child
+Mike: &quot;I always wanted children. I&apos;m not sure when... We have to be ready for it.&quot;
+
+&gt;[13] ask mike about flower
+Mike: &quot;Mary is really into flowers. In my mind they are pretty, sure... But a lot of work has to go into taking care of them&quot;
+
+&gt;[14] ask mike about sex
+Mike: &quot;Yep, here comes the famous vulgarity. I know we&apos;ve been friends for a long time, but, come on!&quot;
+
+&gt;[15] ask mike about city
+Mike: &quot;I don&apos;t think the city has changed since we last talked about it.&quot;
+
+&gt;[16] ask mary about what happened
+You can&apos;t see any such thing.
+
+&gt;[17] ask mike about his car
+Mike: &quot;I don&apos;t know.&quot;
+
+&gt;[18] ask mike about argument
+You: &quot;Is everything ok between you guys?&quot;
+Mike: &quot;Oh! So, we were that loud? It&apos;s nothing serious… The usual hiccups in any relationships.&quot;
+You hear footsteps entering the room. Mary starts speaking.
+Mary: &quot;What do you mean it&apos;s not serious Michael?! How could it get any more serious?&quot;
+You: &quot;It sure sounds more than a hiccup body&quot; 
+Mary: &quot;Why don&apos;t you tell your friend what you&apos;ve done and let he be the judge...&quot; 
+You: &quot;Nice, I get to be the marriage counselor!&quot; 
+You can sense the weight of Mary&apos;s look on you. 
+Mary: &quot;Can you stop being a wise ass for a second!&quot; 
+You: &quot;sorry!&quot;
+
+&gt;[19] hint
+Ask Mike about: house, day, how he has been, life, weather, wife, mary, work, city, argument, what happened, etc.
+Ask Mary about: what happened.
+
+&gt;[20] ask mike about what happened
+You: &quot;What happened?&quot;
+Mike: &quot;Nothing! Really! I don&apos;t know what caused her to act like this. She kept asking me whether I have anything to say to her or not. I&apos;m as confused as you.&quot;
+Mary: &quot;It started couple of months ago. Mike was coming home late once a week. After a while I realized there is a pattern to it. Every Thursday he would be couple of hours late. Also, every other weekends, he would make up an excuse and would go out for half a day. What&apos;s worst is, on Thursdays he always smells of one particular perfume. It never changes. On weekends, the perfumes are mix and hard to distinguish.&quot;
+Mike: &quot;Why were you smelling my clothes?!&quot;
+
+&gt;[21] hint
+You can attack or defend either Mike or Mary.
+
+&gt;[22] defend mike
+You: &quot;Mary, I&apos;m not sure that proves anything. It could be the perfume of a coworker who happens to share elevator with Mike on Thursdays and it only happens on Thursdays because for whatever reason, Mike leaves work later on that day.&quot; 
+Mary: &quot;of course you would side with him. You are his college friend after all.&quot;
+
+Mary leaves her chair and walks to her room. Then immediately comes back while carrying something with herself. She puts a package in front of you.
+
+&gt;[23] ask mary about house
+Mary: &quot;We&apos;ll talk about it later.&quot;
+
+&gt;[24] take package
+Taken.
+
+&gt;[25] ask mary about the package
+Mary: &quot;Open it. You&apos;ll see.&quot;
+
+&gt;[26] x package
+You use your hands to examine the package. It&apos;s rather a thin envelope with some papers inside it.
+
+&gt;[27] open package
+You open package, revealing papers.
+
+&gt;[28] take papers
+You take out the papers inside the package.
+
+Taken.
+
+&gt;[29] x papers
+There are multiple glossy papers as big as your palm.
+
+&gt;[30] ask mary about papers
+You: &quot;Mary, what are these papers?&quot;
+Mary: &quot;Sorry, I forgot about your condition. These are pictures of Mike being intimate with different ladies.&quot;
+
+&gt;[31] defend mary
+You: &quot;Mike, can you explain the content of these photos?&quot;
+Mike: &quot;These photos show me dancing with other people. I don&apos;t know why Mary is getting so worked up about these. Also, I&apos;m curious to know how she got these?&quot;
+Mary: &quot;Can you stop treating me like a fool Mike? And for God&apos;s sake stop acting so matter-of-factly about it. It&apos;s hurting me seeing how indifferent you&apos;ve become. The photos are coming from a reliable source. An investigator who was hired by me when I first noticed your abnormal behavior.&quot;
+
+&gt;[32] defend mary
+You: &quot;Mike, she has every right to be concern.&quot;&quot;
+Mike: &quot;But to go as far as hiring someone to follow me? Why couldn&apos;t she asked me directly?&quot;
+Mary: &quot;I&apos;m sorry… But… But I was afraid.&quot;
+Mike: &quot;AFRAID?! Of me?&quot;&quot;
+Mary: &quot;No, Mike. Not of you. Of what I might have heard… Or worse, what you might not have told me.&quot;&quot;
+Mike: &quot;I&apos;m sorry Mary.&quot;
+
+&gt;[33] defend mike
+You: &quot;I knew it. The Mr. Meek Mike and adultery!&quot;
+Mike: &quot;You shut up!&quot;
+You: &quot;But why hide it?&quot;
+Mike: &quot;Well, it was supposed to be a surprise.&quot;
+You: &quot;Well it sure was.&quot;
+Mary: &quot;What do you mean, SURPRISE?!&quot;
+Mike: &quot;For our anniversary. I&apos;ve planned a small party. I talked to your dad and he told me that you like Waltz, Tango and Salsa. Every Thursday, I was practicing Waltz and Tango. The perfume that you smelled was from my instructor. Every other weekend, there is a social club gathering in town. I&apos;ve been participating and practicing Salsa. I don&apos;t have a fixed partner and I&apos;m practicing with whoever&apos;s available; hence the mixed perfumes.&quot;
+Mary: &quot;Oh, Mike. I am so sorry. I&apos;m so stupid. What have I been thinking?!&quot;
+Mike: &quot;Let me help you Mary. You WEREN&apos;T THINKING at all!&quot;
+Mike finished his sentence with a reassuring smile.
+
+
+
+    *** 
+
+You: &quot;Wow, what a day it was. Guys, I&apos;m really relieved that everything was a misunderstanding. You know both of you are dear friends of mine and nothing is more heartwrenching to me than seeing you both at each other&apos;s throat. I understand sometimes it&apos;s too hard to talk, sometimes you feel the space between you two is infinite and your voice is not reaching the other person. But you&apos;ve got to get your act together if you want to survive. I don&apos;t think it was the first time that such a conflict occurs and let me promise you something, out of experience, it won&apos;t be the last time either. The only cure for this disease, and the only ointment for such injuries is talking. So, promise me to talk to each other when something is bothering you.&quot;
+Mary: &quot;Sure.&quot;
+Mike: &quot;I hope you don&apos;t find it too insensitive of me, but since you lost your eyesight, it feels like you&apos;ve become a philosopher!&quot;
+You: &quot;Mike, I was always a secret philosopher at heart.&quot;
+
+ ***
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="285">YES</temporary>
+    <children>
+      <child nodeId="node-0x27b12200" />
+    </children>
+  </item>
+  <item nodeId="node-0x27b12200">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="285">YES</temporary>
+    <children>
+      <child nodeId="node-0x27b04470" />
+    </children>
+  </item>
+  <item nodeId="node-0x27b04470">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="285">YES</temporary>
+    <children>
+      <child nodeId="node-0x27b39280" />
+    </children>
+  </item>
+  <item nodeId="node-0x27b39280">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="285">YES</temporary>
+    <children>
+      <child nodeId="node-0x30d89ab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x30d89ab0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="285">YES</temporary>
+    <children>
+      <child nodeId="node-0x3a464ed0" />
+    </children>
+  </item>
+  <item nodeId="node-0x3a464ed0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">Please give one of the answers above.
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="284">YES</temporary>
+  </item>
+</Skein>
