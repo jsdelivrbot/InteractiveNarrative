@@ -1,0 +1,53 @@
+! Blurb file created by Inform build 6L38
+
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\Amir\Documents\Inform\Projects\Assignment4.inform\Build\StatusCblorb.html"
+
+
+! Identification
+
+project folder "C:\Users\Amir\Documents\Inform\Projects\Assignment4.inform"
+
+! Blorb instructions
+
+storyfile leafname "Perfect Breakfast.gblorb"
+storyfile "C:\Users\Amir\Documents\Inform\Projects\Assignment4.inform\Build\output.ulx" include
+ifiction "C:\Users\Amir\Documents\Inform\Projects\Assignment4.inform\Metadata.iFiction" include
+cover "C:\Users\Amir\Documents\Inform\Projects\Assignment4.materials\Cover.jpg"
+picture 1 "C:\Users\Amir\Documents\Inform\Projects\Assignment4.materials\Cover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "183B700A-AEDF-4CB7-AD07-499CC1CABBC0"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2015"
+placeholder [TITLE] = "Perfect Breakfast"
+placeholder [AUTHOR] = "Amir Ashkan Nourkhalaj"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+source public
+
+! Website instructions
+
+placeholder [ENCODEDSTORYFILE] = "Perfect Breakfast.gblorb.js"
+template path "C:\Users\Amir\Documents\Inform\Projects\Assignment4.materials\Templates"
+template path "C:\Users\Amir\Documents\Inform\Templates"
+template path "C:\Program Files (x86)\Inform 7\Internal\Templates"
+placeholder [INTERPRETERSCRIPTS] = " "
+interpreter "Quixe" "g"
+base64 "C:\Users\Amir\Documents\Inform\Projects\Assignment4.inform\Build\output.ulx" to "C:\Users\Amir\Documents\Inform\Projects\Assignment4.materials\Release\interpreter\Perfect Breakfast.gblorb.js"
+
+! Website instructions
+
+template path "C:\Users\Amir\Documents\Inform\Projects\Assignment4.materials\Templates"
+template path "C:\Users\Amir\Documents\Inform\Templates"
+template path "C:\Program Files (x86)\Inform 7\Internal\Templates"
+css
+website "Standard"
+status instruction ||&nbsp;<a href="source:story.ni#line115"><img border=0 src=inform:/doc_images/Reveal.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc400.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc410.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
