@@ -5,6 +5,6 @@ The game requires Unity.WebPlayer plugin to work
 
 ![img1](Screenshot/1.PNG "Childhood")
 -------------------------------------------------
-![img2](Screenshot/2.PNG "Airport")
+![img2](Screenshot/2.png "Airport")
 -------------------------------------------------
 ![img3](Screenshot/3.PNG "Dining")
