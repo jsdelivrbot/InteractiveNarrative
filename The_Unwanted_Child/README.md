@@ -3,7 +3,7 @@ A short visual novel that follows a girl throughout her life - Written in Unity
 
 The game requires Unity.WebPlayer plugin to work
 
-Play: https://cdn.rawgit.com/aAshkan/InteractiveNarrative/master/The_Unwanted_Child/theUnwantedChild_webBuild.unity3d
+Play: https://cdn.jsdelivr.net/gh/aAshkan/InteractiveNarrative/The_Unwanted_Child/theUnwantedChild_webBuild.unity3d
 Alternative Link to Play: http://www.kongregate.com/games/excalibour00/the-unwanted-child
 
 ![img1](Screenshot/1.PNG "Childhood")
